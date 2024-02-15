@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>Arya-IMS</title>
+  <link rel="icon" type="image/png" href="./img88/aryalogo.png"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+ 
+  <!-- Link to Google Fonts (Roboto and Montserrat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Libre+Franklin&family=Poppins:ital,wght@0,600;1,400&family=Proza+Libre&family=Questrial&family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+  div.cont{
+    /* background: yellow; */
+    position: relative;
+    height:2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+    flex-direction: column;
+  }
+  div.sld{
+    /* background-color: blue; */
+    margin-bottom: 0.1rem;
+    color:#a9434c;
+    font-weight: 600;
+  }
+  div.sld:nth-child(1){
+    /* margin-top: -1.5rem; */
+    /* background-color: red; */
+    animation:text-animation 14s infinite;
+  }
+  @keyframes text-animation {
+  0% {margin-top: 0;}
+  7% {margin-top: 0;}
+  14% {margin-top: -1.6rem;}
+  21% {margin-top: -1.6rem;}
+  28% {margin-top: -3.3rem;}
+  35% {margin-top: -3.3rem;}
+  42% {margin-top: -5rem;}
+  49% {margin-top: -5rem;}
+  56% {margin-top: -3.3rem;}
+  63% {margin-top: -3.3rem;}
+  70% {margin-top: -1.6rem;}
+  77% {margin-top: -1.6rem;}
+  84% {margin-top: 0;}
+  96% {margin-top: 0;}
+}
+header{
+  position: relative;
+  z-index: 1;
+ 
+  
+}
+.navbar-nav .nav-item a.nav-link{
+  color:#211906 !important;
+}
+.hero{
+  position: relative;
+  margin-top: -10%;
+  overflow-y: hidden;
+
+}
+.hero img{
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* border:5px solid black; */
+  /* box-shadow: 20px 20px 40px 40px #eab676 */
+ 
+}
+div.filler{
+    height: 600px;
+    width:100%;
+    /* background-color: aqua; */
+  }
+  .nav-trans {
+      background-color: #3aa8b9 !important;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      
+      
+      /* transform: scale(0.75) !important; */
+    }
+  .white_top{
+    background-color: #FFF !important;
+    
+  }
+  .white_top .nav-item a.nav-link{
+   
+    color:#000 !important;
+  }
+  @media screen and (max-width:600px){
+    div.card h2{
+      font-size: medium;
+      
+    }
+    div.card{
+      font-size: medium;
+      
+    }
+  }
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light " id="navbar_top" style="background-color: transparent;">
+      <a class="navbar-brand" href="#"> 
+        <div class="content2">
+          <h2 class="content_first">Arya</h2>
+          <h2 class="content_second">Arya</h2>
+        </div>
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav" >
+          <li class="nav-item active">
+            <a class="nav-link" href="#about_us">About Us <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prod_desc">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prod">Services</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li> -->
+           <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="./img88/mathbackground.jpg" alt="">
+    <div class="card">
+      <div>
+        <h1>ERP Software for Factories</h1>
+        <p>Correct and Timely Information is the Key to
+           <div class="cont">
+            <div class="sld">Success</div>
+            <div class="sld">Longevity</div>
+            <div class="sld">Profit</div>
+            <div class="sld">Teamwork</div>
+          </div>
+        </p>
+        <p>...and we are the key providers.</p>
+      </div>
+     
+      <p class="card-footer">A product by Simran Websoft</p>
+    </div>
+    </div>
+  </section>
+  <!-- product paget html -->
+<style>
+  @media screen and (max-width:836px){
+    div.cont2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  div.cup_holder{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 34%;
+  }
+ }
+  div.cont2{
+    position: relative;
+      display: flex;
+      /* background-color:#ebcd82;
+      background-color: #856431; */
+      background-color: #FFF;
+      height: 500px;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 0.8em;
+  }
+  div.cup_holder{
+      background-color: #856431;
+      background-color:#ebcd82;
+      position: relative;
+      height: 85%;
+      min-width: 18%;
+      border-radius: 12px;
+      overflow: hidden;
+      
+  }
+  div.inner_circle{
+     
+     position:relative;
+  
+    background-image: url('./img88/bakc2.png');
+    background-size: cover;
+    background-position:right center;
+  
+    background-attachment: fixed; 
+    /* background-repeat: no-repeat; */
+      width:100%;
+     height: 40%;
+     /* background: #008dff; */
+     border-radius: 70%;
+     transform-origin:bottom ;
+     transform:translateY(-10%)translateX(-20%) scale(2.5)
+ }
+ div.inner_text{
+      /* background-color: red; */
+    
+     position: absolute;
+     width:100%;
+     height: 100%;
+    
+      padding-right: 0.3em;
+     
+  }
+  .inner_text h3{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-family: 'Rubik','Poppins','helvetica',sans-serif;
+      text-decoration: underline;
+      color:#1b362c;
+      /* 
+       */
+      font-size: 1.2rem;
+      margin-bottom:1rem;
+  }
+
+  ul.inner_list{
+      margin: 0;
+      padding: 0;
+      /* background-color: aqua; */
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      font-size: 0.8em;
+  }
+  ul.inner_list li{
+      text-decoration: none;
+      /* padding: 5px; */
+      margin-bottom: 5%;
+      color:#1b362c;
+      list-style: none;
+  }
+  .btn_holder{
+      /* background-color: yellow; */
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 3px;
+  }
+  .btn-action{
+      padding: 0.6em 2em;
+      border: none;
+      outline:none;
+      color:#ebcd82;
+      background: #111;
+      cursor:pointer;
+      position:relative;
+      z-index: 0;
+      border-radius: 8px;
+      touch-action: manipulation;
+
+  }
+  .btn-action::before{
+      content:'';
+      background:linear-gradient(
+          45deg,
+          #ff0000,
+          #ff7300,
+          #fffb00,
+          #48ff00,
+          #00ffd5
+
+      );
+      position: absolute;
+      top:-2px;
+      left:-2px;
+      background-size: 400%;
+      z-index: -1;
+      width:calc(100%+4px);
+      height:calc(100%+4px);
+  }
+ section#prod_desc>h3{
+  /* background-color: #856431; */
+  background-color: #FFF;
+  margin: 0;
+  color:#211906;
+  padding-top: 15px;
+ 
+ }
+</style>
+<section id="prod_desc">
+
+  <h3 class="text-center">AI Inbuilt Apps</h3>
+<div class="cont2">
+ 
+ <div class="cup_holder">
+  <div class="inner_circle"></div>
+  <div class="inner_text">
+      <h3>Sales</h3>
+      <ul class="inner_list">
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Salesman Field App</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Reserve Inventory on Booking</li>
+          
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Design Library & Stock info in App</li>
+      </ul>
+      <div class="btn_holder">
+          <button class="btn-action">Try Now</button>
+      </div>
+      
+  </div>
+ </div>
+ <div class="cup_holder">
+  <div class="inner_circle"></div>
+  <div class="inner_text">
+      <h3>Inventory</h3>
+      <ul class="inner_list">
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Networking of Storage Facilities</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Smart Solutions for Inventory</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Mobile App for scanning</li>
+          
+      </ul>
+      <div class="btn_holder">
+          <button class="btn-action">Try Now</button>
+      </div>
+  </div>
+ </div>
+ <div class="cup_holder">
+  <div class="inner_circle"></div>
+  <div class="inner_text">
+      <h3>WIP</h3>
+      <ul class="inner_list">
+        <!-- <li><img src="./img88/checkmark.png" alt="" style="width:20px">Time & Action Planner</li> -->
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Real Time Data Analysis</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Use of AI</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Barcode and RFID Solutions</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Wages and Payments</li>
+      </ul>
+      <div class="btn_holder">
+          <button class="btn-action">Try Now</button>
+      </div>
+  </div>
+ </div>
+ <div class="cup_holder">
+  <div class="inner_circle"></div>
+  <div class="inner_text">
+      <h3>Sourcing</h3>
+      <ul class="inner_list">
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Vendor Management</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Time & Action Plan</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Full Order Recko</li>
+          <li><img src="./img88/checkmark.png" alt="" style="width:20px">Cost History and Analysis</li>
+      </ul>
+      <div class="btn_holder">
+          <button class="btn-action">Try Now</button>
+      </div>
+  </div>
+ </div>
+</div>
+</section>
+<!-- about us section begins!! -->
+  <section id="aboutUs">
+    <style>
+      #aboutUs{
+        /* background-image: url('./img88/ws5.png');
+        background-size: cover;
+        background-position: center;
+        padding: 18px; */
+      }
+      #aboutUs img{
+        width:100%;
+        height: 100%;
+      }
+      div#columns{
+        column-count: 2;
+        column-gap: 2em;
+        text-align: justify;
+        column-rule: 3px solid #1b362c;
+        column-width: 15em;
+        padding-left: 30px;
+        padding-right: 30px;
+        width:75%;
+        /* background-color: yellow; */
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    </style>
+    <div class="heading text-center" id="about_us">
+      <h3>ABOUT US</h3>
+    </div>
+    <div id="columns">
+      <p>
+        “We must meet the challenge rather than wish it were not before us.”—William J. Brennan, Jr., Former Associate Justice of the U.S. Supreme Court
+      </p>
+      <p>
+        And One of the challanges is to always adept and keep adepting
+        with the advancement in technology. This is what we do and 
+        help others in the process.
+        We are software developers,with plenty of working experience in industry,
+        with deep understanding of every role within an organization
+        and hence claim to understand the business process thoroughly.
+      </p>
+      <p>
+        From Product Development and sourcing of raw material,
+        From indenting to procurment and consumption within the WIP processess,
+        to Storing and Dispatch of final products, Our software and services can 
+        and generally help companies to record, update and remind of all the 
+        make through or break through parameters.
+
+        </p>
+        <p>Be it sales display and order booking in real time, our mobile app covers
+        it with reserving the stock against sales order in real time.
+
+        
+      </p>
+    </div>
+  </section>
+  <!-- circle and lines here -->
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes move-dot1 {
+    0% {
+      transform: translateX(-50%) translateY(-50%);
+    }
+    20% {
+      transform: translateX(-50%) translateY(30%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(30%);
+    }
+  }
+  @keyframes move-dot1 {
+    0% {
+      transform: translateX(-50%) translateY(-50%);
+    }
+    20% {
+      transform: translateX(-50%) translateY(30%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(30%);
+    }
+  }
+  @-webkit-keyframes move-dot2 {
+    0% {
+      transform: translateX(-50%) translateY(-50%);
+    }
+    15% {
+      transform: translateX(-50%) translateY(-10%);
+    }
+    30% {
+      transform: translateX(-10%) translateY(-10%);
+    }
+    100% {
+      transform: translateX(-10%) translateY(-10%);
+    }
+  }
+  @keyframes move-dot2 {
+    0% {
+      transform: translateX(-50%) translateY(-50%);
+    }
+    15% {
+      transform: translateX(-50%) translateY(-10%);
+    }
+    30% {
+      transform: translateX(-10%) translateY(-10%);
+    }
+    100% {
+      transform: translateX(-10%) translateY(-10%);
+    }
+  }
+  body {
+    background: #eee;
+  }
+  #intro{
+    background-color: #363073;
+    background-color: #2f2d44;
+    height: 500px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    
+  }
+  .animation-example {
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+   
+   
+    height:400px;
+    width: 400px;
+    /* background-color: red; */
+  }
+  .animation-example > .item {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    transform-origin: 50% 100%;
+    pointer-events: none;
+  }
+  .animation-example > .item:nth-child(2) {
+    transform: translateX(-50%) rotate(90deg);
+  }
+  .animation-example > .item:nth-child(3) {
+    transform: translateX(-50%) rotate(180deg);
+  }
+  .animation-example > .item:nth-child(4) {
+    transform: translateX(-50%) rotate(270deg);
+  }
+  .animation-example > .item > .line {
+    height: 100%;
+    width: calc(50% + 1px);
+    border-right: 2px dashed #d1aede;
+  }
+  .animation-example > .item > .dot {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 100%;
+    width: 100%;
+    -webkit-animation: move-dot1 5.5s linear infinite;
+            animation: move-dot1 5.5s linear infinite;
+  }
+  .animation-example > .item > .dot::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 5%;
+    width: 5%;
+    background: #fff;
+    border: 2px solid #ac64a2;
+    border-radius: 50%;
+  }
+  .animation-example > .item > .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    /* background: #5bc0eb;
+    border: 1px solid #873e23;
+    background-image: url('./img88/bakc.png'); */
+  }
+ 
+  .animation-example > .item > .circle img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.75 );
+    border-radius: 50%;
+  }
+  .animation-example > .item.-type2 {
+    top: 0;
+    left: 0;
+    transform: none;
+    transform-origin: 100% 100%;
+  }
+  .animation-example > .item.-type2:nth-child(5) {
+    transform: scaleX(-100%);
+  }
+  .animation-example > .item.-type2:nth-child(6) {
+    transform: scaleX(-100%) scaleY(-100%);
+  }
+  .animation-example > .item.-type2:nth-child(7) {
+    transform: scaleY(-100%);
+  }
+  .animation-example > .item.-type2 > .line {
+    position: absolute;
+    top: 30%;
+    left: calc(30% - 1px);
+    width: 70%;
+    height: 40%;
+    border-right: none;
+    border-left: 2px dashed #d1aede;
+    border-bottom: 2px dashed #d1aede;
+  }
+  .animation-example > .item.-type2 > .dot {
+    top: 30%;
+    left: 30%;
+    -webkit-animation: move-dot2 4s linear infinite;
+            animation: move-dot2 4s linear infinite;
+  }
+  .animation-example > .item.-type2 > .circle {
+    top: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .animation-example > .item.-type2 > .circle2 {
+    top: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+ 
+  .animation-example > .item:nth-of-type(1) > .dot {
+    -webkit-animation-delay: 0;
+            animation-delay: 0;
+  }
+  .animation-example > .item:nth-of-type(7) > .dot {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .animation-example > .item:nth-of-type(2) > .dot {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .animation-example > .item:nth-of-type(6) > .dot {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  .animation-example > .item:nth-of-type(3) > .dot {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  .animation-example > .item:nth-of-type(5) > .dot {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+  .animation-example > .item:nth-of-type(4) > .dot {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .animation-example > .item:nth-of-type(8) > .dot {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+  }
+  .animation-example > .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 50%;
+    width: 50%;
+  }
+  .animation-example > .center > .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+  }
+  .animation-example > .center > .circle:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 3vmin rgba(0, 0, 0, 0.1);
+  }
+  .animation-example > .center > .circle:nth-child(2) {
+    height: 80%;
+    width: 80%;
+    border: 2px solid #5bc0eb;
+  }
+  .animation-example > .center > .circle:nth-child(3) {
+    height: 50%;
+    width: 50%;
+    background: #5bc0eb;
+  }
+  div.intro_first{
+    /* background-color: #856431; */
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  </style>
+  <section id="intro">
+    <div class="intro_first ">
+
+    
+  <div class='animation-example'>
+    <div class='item'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/profit2.jpg" alt="" style="transform: scale(1.75);">
+        </div>
+    </div>
+    <div class='item'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/ecomm.jpg" alt="" style="transform: rotate(-90deg)scale(1.75);">
+        </div>
+    </div>
+    <div class='item'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/logistics.jpg" alt="" style="transform: rotate(-180deg)scale(1.75);">
+        </div>
+    </div>
+    <div class='item'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/warehouse.jpg" alt="" style="transform: rotate(90deg)scale(1.75);">
+        </div>
+    </div>
+    <div class='item -type2'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/office.jpg" alt="" style="transform: scale(1.75);">
+        </div>
+    </div>
+    <div class='item -type2'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/buyer.jpg" alt="" style="transform: rotate(180deg)scale(1.75);">
+        </div>
+    </div>
+    <div class='item -type2'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/shop.jpg" alt="" style="transform: rotate(180deg)scale(1.75);">
+        </div>
+    </div>
+    <div class='item -type2'>
+        <div class='line'></div>
+        <div class='dot'></div>
+        <div class='circle'>
+          <img src="./img88/factory2.jpg" alt="">
+        </div>
+    </div>
+    <style>
+ .pulse {
+    border-radius: 50px;
+    height: 80px;
+    left: 50%;
+    letter-spacing: 0.05em;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 80px;
+}
+
+.pulse:after {
+    animation: pulse 2s infinite linear;
+    -webkit-animation: pulse 2s infinite linear;
+    background: rgb(186, 218, 8);
+    border-radius: 50%;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+@keyframes pulse{
+  0% {transform:scale(0.5);
+    opacity:0;}
+  50% {transform:scale(0.8);
+    opacity:1;}
+  100% {transform:scale(1);
+    opacity:0;}
+}
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.arrow:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-80%);
+  border: solid black;
+  border-width: 2px 2px 0 0;
+  width: 8px;
+  height: 8px;
+  animation: bounceArrow 1s infinite;
+}
+
+@keyframes bounceArrow {
+  0%, 100% {
+    transform: translateX(-90%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-20px);
+  }
+}
+.pulse_cont{
+    position: relative;
+    display:flex;
+   
+    width:100%;
+    height:100%;
+    /* background-color: rgb(0, 110, 255); */
+    justify-content: center;
+    align-items: center;
+    
+}
+.pulse_img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: white;
+    border-radius: 50%;
+    /* transform:translateY(50%); */
+    
+    /* animation: pulse 2s infinite linear */
+
+}
+.pulse_img:nth-child(1),.pulse_img:nth-child(2){
+    /* background-image: url('./mountain.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; */
+
+animation: pulse 5s infinite linear;
+background-color: #7e83d6
+}
+.pulse_img:nth-child(2){
+    width:55%;
+    height: 55%;
+    animation: pulse 4s infinite linear;
+    background-color:#4851b2;
+}
+.pulse_img:nth-child(3){
+  position: absolute;
+  background-image: url('./img88/matrix2.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* background-color: yellow; */
+  width:40%;
+  height: 40%;
+  
+  /* z-index:20000; */
+  box-shadow: 5px 5px 30px #9fa7ec;
+}
+    </style>
+   
+      <div class="pulse_cont">
+        <div class="pulse_img2"></div>
+        <div class="pulse_img"></div>
+        <div class="pulse_img"></div>
+       
+    </div>
+  </div>
+    </div>
+  <style>
+    div.intro-text{
+      /* background-color: #48ff00; */
+      flex:1;
+      height: 85%;
+      color: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      align-items: center;
+    }
+    div.text-justify{
+      /* background-color: #00ffd5; */
+      width:80%;
+      padding: 3px;
+      font-family: 'Helvetica';
+      font-size: 0.96em;
+      line-height: 2em;
+    }
+    div.text-justify p{
+      margin: 5px;
+      padding: 0;
+    }
+  </style>
+  <div class="intro-text">
+    <h3 class="text-center">
+      Connect like Nerves
+    </h3>
+    <div class="text-justify lh-2">
+      <p>
+        Connect & Update EveryOne; And Know Everything.
+     </p><p>
+        Grant Controlled, Restricted, Or Conditional Access to Information.
+      </p><p>
+        Let everyone know what the plan is; and let everyone fill in 
+        their part, watch the progress and share the deadlines.
+      </p><p>
+        Mark and see the event calander.
+        <p>
+        Associate and Calculate Cost at every event.
+      </p>
+    </div>
+    
+  </div>
+   
+</section>
+<style>
+  section#scm{
+    position: relative;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    background-color: #abdbe3;
+    padding: 30px;
+   
+    
+  }
+  section#scm img{
+    width:100%;
+    height: 100%;
+    background-size: contain;
+    filter: opacity(0.65);
+    position: absolute;
+    z-index: -1;
+  }
+  div.scm{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* font-family: 'Poppins'; */
+    /* font-weight: bold; */
+    
+    /* text-indent: 3em; */
+  }
+ 
+</style>
+<section id="scm">
+  <!-- <img src="./img88/bwallback.jpg" alt="background image"> -->
+  <div class="scm">
+    <h3 class="text-center">
+      Supply Chain Management
+    </h3>
+    <p>
+      Product Development Information gives you complete access to
+      all the variables involved around sampling, and new developments.
+      Style Library, Costing and Analysis with complete instruction manuals
+      suppliment the procurement and production smoothly.
+    </p>
+    <p>All Material Management activities linked with Inventory
+      and cost control modules are available for real time generation of
+      purchase order followed up with concurring goods recieve notes.
+    </p>
+    <p>
+      Manage your vendors and every information related to sourcing of products/orders
+      in the system, share with relevant parties with control restricted and approved
+      access to information.
+    </p>
+    <p>
+      Excellant calander application integration in Time & Action Planning module
+      lets you map your activities in real time,
+      see the delays and act on time using the alarms and notification mechanism.
+    </p>
+    <p>
+      Reduce the paper work upto 80%; the system is capable of digitally storing, producing,
+      and archieving every bill of material for future use.
+      The accounting module takes care of bill passing and bank account reconcillations.
+    </p>
+  </div>
+</section>
+
+  <!-- main product html here -->
+  <style>
+    
+    #prod{
+        
+        background-color: #ac64a2;
+        background-color:#8863a7;
+        height: 600px;
+        width:100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product__outer{
+        position: relative;
+        background-color: #fff;
+        width:45%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+    }
+    .product__innerCont{
+        /* background-color: #154c79; */
+        background-color: #fff;
+        width: 100%;
+        height: 85%;
+        border-radius: 4px;
+        border-top-left-radius:8% ;
+        border-top-right-radius:8% ;
+        border-bottom-left-radius:8% ;
+        border-bottom-right-radius:0 ;
+        box-shadow: 1rem 1rem 1.5rem -2rem rgba(2, 93, 96, 0.374);
+        transform: translateX(-10%);
+        /* transform: translateY(2%); */
+        /* transform: rotate(-15deg) translateY(5%) ; */
+        display: flex;
+    }
+    .product__innerImg{
+        background-color: #154c79;
+        width:100%;
+        /* height: 90%; */
+        border-radius: 8%;
+        border-bottom-left-radius:8% ;
+        border-bottom-right-radius:0 ;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
+       
+    }
+    .product__innerImg img{
+        width:100%;
+        border-radius: 2%;
+       
+       
+    }
+    .product__innerDesc{
+        /* background-color: yellow; */
+       position: relative;
+        width: 50%;
+        height: 85%;
+        font-family:'Poppins', sans-serif;
+        font-size: 0.85rem;
+        letter-spacing: 0.03rem;
+        color:#fff;
+        color:#21130d;
+        border-radius: 4px;
+        box-shadow: 1rem 1rem 1.5rem -1.6rem rgba(2, 34, 35, 0.374);
+        transform: translateX(-2%);
+        
+    }
+    .product__innerDesc h3{
+        /* transform: translateY(-245%) translateX(-55%) scale(1.25); */
+        color:#873e23;
+       font-weight:600;
+       font-family: 'Rubik';
+       /* font-size: 0.85em; */
+     
+      
+    }
+</style>
+<section id="prod" class="chngBkNav">
+   
+        <div class="product__outer">
+            
+           <div class="product__innerCont">
+            
+            <div class="product__innerImg">
+                <img src="./img88/web3.png">
+                <img src="./img88/react-dashboards.jpg" alt="">
+            </div>
+           </div>
+           <div class="product__innerDesc">
+            <h3>
+                Information Management Software
+            </h3>
+            <h4 style="font-size:0.75rem">
+                Features
+            </h4>
+           
+            <ol class="ol-days" style="--month:''">
+              <li>Sales Order Planning</li>
+              <li>Inventory & WIP Management</li>
+              <li>Time and Action Planner</li>
+              <li>Artificial Intelligence </li>
+              <li>Third Party Data Integration</li>
+             
+            </ol>
+           </div>
+          
+        </div>
+   
+</section>
+<section id="erp">
+  <style>
+    div.erp_cont{
+      /* background-color: yellow; */
+      display: flex;
+      justify-content: space-around;
+    }
+    div.erp_cont>div{
+      /* width:33.33%; */
+      padding: 2rem;
+      
+    }
+    div.erp_cont>div:nth-child(1){
+      /* background-color: blueviolet; */
+      width:30%;
+    }
+   
+    div.erp_cont>div:nth-child(3){
+      /* background-color: blueviolet; */
+      width: 30%;
+    }
+    @media screen and (max-width:836px){
+      div.erp_cont{
+      background-color: #eeeee4 !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    div.erp_cont>div:nth-child(1){
+      /* background-color: blueviolet; */
+      width:100%;
+    }
+    div.erp_cont>div:nth-child(2){
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 0;
+    }
+   
+    div.erp_cont>div:nth-child(3){
+      /* background-color: blueviolet; */
+      width: 100%;
+    }
+  }
+  </style>
+  <h3 class="text-center p-4">Enterpise Resource Planning -2023</h3>
+  <div class="erp_cont">
+    <div class="erp_text1">
+      <div class="erp">
+        <p>There is so much fun and excitement and responsibility growing up and bigger.
+          Even so if the company growth is objectively managed. This means
+          managing resources.
+    
+        </p>
+        <p>
+          With this software, resources and their utilization can be well planned.
+          Use of AI can be maximised in conjunction with this software.
+    
+        </p>
+        <p>
+          The data from the past execution of orders can be effectively used for 
+          future planning of orders, in other words, the lessons learned from the past
+          can help avoid the pitfalls in current path.
+        </p>
+         
+    
+      </div>
+    </div>
+    <div class="erp_slider">
+      <div class="walkthrough show reveal">
+        <div class="walkthrough-pagination">
+          <a class="dot active"></a>
+          <a class="dot"></a>
+          <a class="dot"></a>
+          <a class="dot"></a>
+          <a class="dot"></a>
+        </div>
+        <div class="walkthrough-body">
+          <ul class="screens animate">
+            <li class="screen active">
+              <div class="media logo">
+                <img class="logo" src="./img88/dash1.png"/>
+              <h3 class="mt-3">
+                Dashboard 
+                <br />Showing the Operations Summary</h3>
+              <p>All the running processes can be summarised here.
+                View Critical alerts & calander events.
+              </p>
+            </li>
+            <li class="screen">
+              <div class="media logo">
+                <img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/book_icon_1.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/book_icon_2.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/book_icon_3.png"}</div>
+              <h3>
+                Data and File
+                <br />Management</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </li>
+            <li class="screen">
+              <div class="media bars">
+                <img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/bar_icon_axis.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/bar_icon_3.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/bar_icon_2.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/bar_icon_1.png"}</div>
+              <h3>
+                Analytics
+                <br />and Metrics</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </li>
+            <li class="screen">
+              <div class="media files">
+                <img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/file_icon_1.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/file_icon_2.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/file_icon_3.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/file_icon_4.png"}</div>
+              <h3>
+                Reporting
+                <br />and Insights</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </li>
+            <li class="screen">
+              <div class="media comm">
+                <img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/comm_icon_1.png"}<img class="icon" />{src: "https://s3.amazonaws.com/jebbles-codepen/comm_icon_2.png"}</div>
+              <h3>
+                Communications
+                <br />Tools</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </li>
+          </ul>
+          <button class="prev-screen">
+            <i class="icon-angle-left"></i>
+          </button>
+          <button class="next-screen">
+            <i class="icon-angle-right"></i>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="erp_text2">
+      <p>
+        Depending upon the scale of organization, there are option to implement this
+        software.
+      </p>
+      <p>
+        Either go for full installation in one go, or independent modules can
+        be implemented in sequence, giving it a smooth timeline to adept.
+      </p>
+      <p>
+        Work with cloud version with no hardware requirement,or set up inhouse
+        server and access locally with no limitations on number of users.
+        With multiple models of working, one phone call is all it takes to help decide the 
+        most fitting aproach.
+      </p>
+    </div>
+  </div>
+  
+</section>
+
+<section id="testimonials">
+
+  <!-- partial:index.partial.html -->
+<div class="outerdiv">
+  <h3 class="text-center">Testimonials</h3>
+  <div class="innerdiv">
+    <!-- div1 -->
+    <div class="div1 eachdiv">
+      <div class="userdetails">
+        <div class="imgbox">
+          <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="">
+        </div>
+        <div class="detbox">
+          <p class="name">Gopal Namdev</p>
+          <p class="designation">HOD MIS</p>
+        </div>
+      </div>
+      <div class="review">
+        <h4>We have been able to improve efficency in our inter department communication after using Arya Software</h4>
+      <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+      </div>
+    </div>
+    <!-- div2 -->
+    <div class="div2 eachdiv">
+      <div class="userdetails">
+        <div class="imgbox">
+          <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="">
+        </div>
+        <div class="detbox">
+          <p class="name">Aman Thakur</p>
+          <p class="designation">Verified Graduate</p>
+        </div>
+      </div>
+      <div class="review">
+        <h4>The team was very supportive and kept me motivated</h4>
+      <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
+      </div>
+    </div>
+    <!-- div3 -->
+    <div class="div3 eachdiv">
+      <div class="userdetails">
+        <div class="imgbox">
+          <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
+        </div>
+        <div class="detbox">
+          <p class="name dark">Kiran Patel</p>
+          <p class="designation dark">Verified Graduate</p>
+        </div>
+      </div>
+      <div class="review dark">
+        <h4>Such a life-changing experience. Highly recommended!</h4>
+        <p>“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of experience. It certainly helped me land a job as a full-stack 100% recommend! ”</p>
+      </div>
+    </div>
+    <!-- div4 -->
+    <div class="div4 eachdiv">
+      <div class="userdetails">
+        <div class="imgbox">
+          <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+        </div>
+        <div class="detbox">
+          <p class="name dark">Vikas Mishra</p>
+          <p class="designation dark">Verified Graduate</p>
+        </div>
+      </div>
+      <div class="review dark">
+        <h4>An overall wonderful and rewarding experience</h4>
+      <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
+      </div>
+    </div>
+    <!-- div5 -->
+    <div class="div5 eachdiv">
+      <div class="userdetails">
+        <div class="imgbox">
+          <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+        </div>
+        <div class="detbox">
+          <p class="name">Himanshu Vyas</p>
+          <p class="designation">Verified Graduate</p>
+        </div>
+      </div>
+      <div class="review">
+        <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h4>
+      <p>“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- partial -->
+</section>
+<!-- faq section here -->
+<section id="faq">
+  <style>
+    section#faq{
+      font-family: 'Poppins';
+    }
+    .accordion{
+  margin: 40px 0 0 0;
+}
+.accordion .item {
+    border: none;
+    margin-bottom: 5px;
+    background: none;
+}
+.t-p{
+  color: rgb(2, 16, 27);
+  padding: 5px 30px 5px 30px;
+}
+.accordion .item .item-header h2 button.btn.btn-link {
+    background: #7e83d6;
+    color: white;
+    border-radius: 0px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.accordion .item .item-header {
+    border-bottom: none;
+    background: transparent;
+    padding: 0px;
+    margin: 2px;
+}
+
+.accordion .item .item-header h2 button {
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .item .item-header h2 i {
+    float: right;
+    font-size: 25px;
+    color: #d1aede;
+    background-color: #363073;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button.btn.btn-link.collapsed i {
+    transform: rotate(0deg);
+}
+
+button.btn.btn-link i {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+  </style>
+  
+    <div class="accordion" id="accordionExample">
+      <h2 class="text-center">Frequently Asked Questions</h2>
+      <div class="item">
+         <div class="item-header" id="headingOne">
+            <h2 class="mb-0">
+               <button class="btn btn-link" type="button" data-toggle="collapse"
+                  data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              How Can We Get Started
+               <i class="fa fa-angle-down"></i>
+               </button>
+            </h2>
+         </div>
+         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+            data-parent="#accordionExample">
+            <div class="t-p">
+              Contact us for a free demo and one of our engineers will guide you 
+              to test the software online.
+              
+            </div>
+         </div>
+      </div>
+      <div class="item">
+         <div class="item-header" id="headingTwo">
+            <h2 class="mb-0">
+               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               Do I get a trial period
+               <i class="fa fa-angle-down"></i>
+               </button>
+            </h2>
+         </div>
+         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+            data-parent="#accordionExample">
+            <div class="t-p">
+              Yes, You may take your time to see if the software fits your requirement.
+              The software can be accessed with restricted features with the option of merging
+              your data later on with the customised version.
+            </div>
+         </div>
+      </div>
+      <div class="item">
+         <div class="item-header" id="headingThree">
+            <h2 class="mb-0">
+               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+               Can I install the software locally
+               <i class="fa fa-angle-down"></i>
+               </button>
+            </h2>
+         </div>
+         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+            data-parent="#accordionExample">
+            <div class="t-p">
+              Yes, there are options to run software on local server as well. You can choose
+              to run it on cloud or in premises.
+            </div>
+         </div>
+      </div>
+      <div class="item">
+        <div class="item-header" id="headingFour">
+           <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                 data-target="#collapseFour" aria-expanded="false"
+                 aria-controls="collapseFour">
+              Do I get a refund if I cancel subscription
+              <i class="fa fa-angle-down"></i>
+              </button>
+           </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+           data-parent="#accordionExample">
+           <div class="t-p">
+             Yes, after deducting initial set up charges, remaining will be refunded to you
+             in case the software does not work out for you.
+           </div>
+        </div>
+     </div>
+     <div class="item">
+      <div class="item-header" id="headingFive">
+         <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+               data-target="#collapseFive" aria-expanded="false"
+               aria-controls="collapseFive">
+           Is Customization possible
+            <i class="fa fa-angle-down"></i>
+            </button>
+         </h2>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+         data-parent="#accordionExample">
+         <div class="t-p">
+           Yes, We have build complete software from skretch. It can be
+           tweaked as per the requirements. 
+         </div>
+      </div>
+   </div>
+   <div class="item">
+    <div class="item-header" id="headingSix">
+       <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+             data-target="#collapseSix" aria-expanded="false"
+             aria-controls="collapseSix">
+          Can I make my own software
+          <i class="fa fa-angle-down"></i>
+          </button>
+       </h2>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+       data-parent="#accordionExample">
+       <div class="t-p">
+         Yes, We are software developers and can build total customised solution
+         on latest tech platforms
+       </div>
+    </div>
+ </div>
+ <div class="item">
+  <div class="item-header" id="headingSeven">
+     <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+           data-target="#collapseSeven" aria-expanded="false"
+           aria-controls="collapseSeven">
+        Does it work on mobile
+        <i class="fa fa-angle-down"></i>
+        </button>
+     </h2>
+  </div>
+  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+     data-parent="#accordionExample">
+     <div class="t-p">
+       Yes, It is accompanied by independent mobile apps which work on
+       andorid as well as iOS. You can select the modules in ERP for
+       custom reports viewing as well.
+     </div>
+  </div>
+</div>
+<div class="item">
+  <div class="item-header" id="headingEight">
+     <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+           data-target="#collapseEight" aria-expanded="false"
+           aria-controls="collapseEight">
+        Is there a restriction on number of users
+        <i class="fa fa-angle-down"></i>
+        </button>
+     </h2>
+  </div>
+  <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+     data-parent="#accordionExample">
+     <div class="t-p">
+       Yes. There are three catagories of number of users under 50, under 100 And
+       greater than 100 users.
+     </div>
+  </div>
+</div>
+      <div class="item">
+         <div class="item-header" id="headingNine">
+            <h2 class="mb-0">
+               <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseNine" aria-expanded="false"
+                  aria-controls="collapseNine">
+              What are the payment options
+               <i class="fa fa-angle-down"></i>
+               </button>
+            </h2>
+         </div>
+         <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+            data-parent="#accordionExample">
+            <div class="t-p">
+              You can pay monthly or one-time payment.
+            </div>
+         </div>
+      </div>
+      <div class="item">
+        <div class="item-header" id="headingTen">
+           <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                 data-target="#collapseTen" aria-expanded="false"
+                 aria-controls="collapseTen">
+              How to contact 
+              <i class="fa fa-angle-down"></i>
+              </button>
+           </h2>
+        </div>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+           data-parent="#accordionExample">
+           <div class="t-p">
+             Preferred method is sending whatsapp message on +(91)98200 83733,
+             we will get back within 24 hours.
+           </div>
+        </div>
+     </div>
+    </div>
+    
+</section>
+
+<section id="footer">
+  <style>
+    #footer{
+      height: auto;
+      background-color: #1b362c;
+      color:#ebcd82;
+    }
+    .footer_cont{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .side_one{
+      /* background-color: #ffffff; */
+      padding: 2rem;
+      
+    }
+    .side_one h3{
+      font-size: 0.95rem;
+      text-align: center;
+      text-decoration: underline;
+      margin-left: -2rem;
+    }
+    .side_one_p{
+      /* background-color: #856431; */
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      /* padding-left: 1rem; */
+      
+    }
+    .side_middle{
+      /* background-color: #00ffd5; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2rem;
+    }
+    .side_middle a{
+      font-size: 0.9rem;
+      text-decoration: none;
+      color:#ebcd82;
+      margin-bottom: 0.75rem;
+      text-align: left;
+    }
+    .side_end{
+      /* background-color: #48ff00; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .side_end img{
+      width:200px;
+    }
+  </style>
+ <div class="footer_cont">
+  <div class="side_one">
+    <h3>Arya Information Management Software</h3>
+    <div class="side_one_p">
+      <p>You will be amazed..<br>
+        How Technology can transform your operations..
+      </p>
+      <p>
+        Call us now...(+91) 98200 83733
+      </p>
+    </div>
+    
+  </div>
+  <div class="side_middle">
+   <a href="#about_us">About Us</a>
+   <a href="#prod_desc">Products</a>
+   <a href="#prod">Services</a>
+   
+   <a href="#footer">Contact Us</a>
+   <a href="#faq">FAQ</a>
+  </div>
+
+   <div class="side_end">
+    <p>Let's Connect</p>
+    <p>arya@simranwebsoft.com</p>
+    <img src="./img88/social-logo.jpg" alt="social logo">
+  </div>
+ 
+ </div>
+</section>
+ 
+<script src="./js/bootstrap.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="./js/ERP-script.js"></script>
+</body>
+</html>

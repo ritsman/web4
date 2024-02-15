@@ -1,0 +1,17 @@
+/* arya logo in the navbar */
+@import "aryalogo.css";
+
+/* hero section the first one with css text sucess,longitivit...etc */
+
+@import url("section_hero.css");
+
+/* testimonial style sheet */
+@import url("testimonial.css");
+
+/* bullet style in the product feature list */
+
+@import url("ui-style.css");
+
+/* @import url("productfeature.scss"); */
+@import url("productfeature2.css");
+

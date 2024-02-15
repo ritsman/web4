@@ -1,0 +1,55 @@
+
+   @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+body, h2{
+  margin: 0;
+  padding: 0;
+}
+.content2 h2{
+margin-left: 12px ;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+  font-size: 2rem ;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.content2 h2:nth-child(1){
+ position: absolute;
+ color: transparent;
+ -webkit-text-stroke: 1px #68afc2;
+}
+.content2 h2:nth-child(2){
+  color: #68afc2;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
