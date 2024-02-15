@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    /* font-size: 16px; */
+}
+.bg_white{
+    background: #fff;
+}
+.common_space{
+    padding: 50px 0;
+  }
+.mb_20{
+    margin-bottom: 20px !important;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+
+
+/* Banner  */
+.banner{
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 350px 0 200px 0;
+    position: relative;
+}
+.banner::after{
+    position: absolute;
+    content: '';
+    background-color: rgb(0, 0, 0, 59%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.center_card{
+    z-index: 99;
+    /* background: #fff; */
+    background-color: #ffffffc4;
+}
+header{
+    position: fixed !important;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 99;
+    padding: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+header.sticky {
+    padding: 0;
+    background: #0C1527;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+}
+header.sticky .style_main .style_header .custom_header a{
+    font-size: 15px;
+}
+.center_card p{
+    font-size: 16px;
+}
+/* Heaser menu animation  */
+.custom_header ul { 
+    margin: 150px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+  }
+  .custom_header li { 
+    display: table-cell; 
+    position: relative; 
+    /* padding: 15px 0; */
+    padding: 0px 10px;
+  }
+  .custom_header a {
+    color: #fff !important;
+    /* color: #176B87; */
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    /* padding: 15px 20px; */
+    position: relative;
+  }
+  .custom_header a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    /* background: #176B87; */
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .custom_header a:hover:after { 
+    width: 100%; 
+    left: 0; 
+    /* color: #176B87 !important; */
+  }
+  .custom_header .nav-link{
+    font-size: 16px;
+    color: #fff;
+    /* color: #176B87; */
+  }
+ 
+  .style_main .style_header .custom_header a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 16px;
+    /* padding: 15px 20px; */
+    letter-spacing: normal;
+}
+/* .style_main .style_header .custom_header a:hover{
+    color: #176B87 !important;
+
+} */
+  .custom_header{
+    z-index: 99;
+  }
+  /* .style_header{
+    z-index: 99;
+  } */
+  @media screen and (max-height: 300px) {
+    .custom_header ul {
+          margin-top: 40px;
+      }
+  }
+
+  /* AI Inbuilt app  */
+  .product_des li{
+    text-align: left;
+    padding: 0 30px 0 50px;
+    position: relative;
+  }
+  .product_des li::before{
+    position: absolute;
+    content: '';
+    background: url('../img88/checkmark.png') no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 0;
+  }
+  .try_nowBtn{
+    transition: all ease .5s;
+    border: 1px solid #000;
+    font-weight: 600;
+  }
+  .try_nowBtn:hover{
+    background: transparent;
+    border: 1px solid ;
+    color: #000;
+  }
+
+  .prod__res{
+    flex-wrap: wrap;
+  }
+  .top_img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* About section  */
+  /* .about_text{
+    font-size: 16px;
+  } */
+
+
+  
