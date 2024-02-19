@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya-IMS</title>
+    <!-- <link rel="icon" type="image/png" href="./img/aryalogo.png"/> -->
+    <link rel="stylesheet" href="./img/aryalogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link to Google Fonts (Roboto and Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar_top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="content2">
+                        <h2 class="content_first">Arya</h2>
+                        <h2 class="content_second">Arya</h2>
+                    </div>
+
+                </a>
+                <button class="btn  navbar-toggler border-3 px-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+                <div class="offcanvas offcanvas-start-lg " tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header d-flex d-lg-none">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Navbar</h5>
+                        <a href="javascript:void(0) " class="text-reset p-0 close-btn" data-bs-dismiss="offcanvas"
+                            aria-label="close">
+                            <span class="close-first-btn"></span>
+                            <span class="close-last-btn"></span>
+                        </a>
+                    </div>
+                    <div class="offcanvas-body p-lg-0">
+                        <ul class="navbar-nav custom_header">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#aboutus">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#intro">What We Do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#products">Products</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#prod">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        <section class="banner" style="background: url(./img/mathbackground.jpg);" id="">
+            <div class="center_box ">
+                <div class="card center_card " data-aos="zoom-in">
+                    <div>
+                        <h3>ERP Software for Factories</h3>
+                        <p>Correct and Timely Information is the Key to
+                        <div class="cont">
+                            <div class="sld">Success</div>
+                            <div class="sld">Longevity</div>
+                            <div class="sld">Profit</div>
+                            <div class="sld">Teamwork</div>
+                        </div>
+                        </p>
+                        <p>...and we are the key providers.</p>
+                    </div>
+                    <p class="card-footer">A product by Simran Websoft</p>
+                </div>
+            </div>
+        </section>
+        <section class="common_space" id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="heading text-center mb_40" id="about_us">
+                        <h2 class="font-weight-bold">AI Inbuilt Apps</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cont2 prod__res" data-aos="fade-right">
+                            <div class="cup_holder">
+                                <div class="inner_circle"></div>
+                                <div class="inner_text">
+                                    <h3 class="mb_20">Sales</h3>
+                                    <ul class="inner_list prod_list">
+                                        <li>Salesman Field App</li>
+                                        <li>Reserve Inventory on Booking</li>
+                                        <li>Design Library & Stock info in App</li>
+                                    </ul>
+                                    <div class="try_nowBtn text-center">
+                                        <a href="#" class="try_now">Try Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cont2 prod__res" data-aos="fade-right">
+                            <div class="cup_holder">
+                                <div class="inner_circle"></div>
+                                <div class="inner_text">
+                                    <h3 class="mb_20">Inventory</h3>
+                                    <ul class="inner_list prod_list">
+                                        <li>Networking of Storage Facilities</li>
+                                        <li>Smart Solutions for Inventory</li>
+                                        <li>Mobile App for scanning</li>
+                                    </ul>
+                                    <div class="try_nowBtn text-center">
+                                        <a href="#" class="try_now">Try Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cont2 prod__res" data-aos="fade-left">
+                            <div class="cup_holder">
+                                <div class="inner_circle"></div>
+                                <div class="inner_text">
+                                    <h3 class="mb_20">WIP</h3>
+                                    <ul class="inner_list prod_list">
+                                        <li>Real Time Data Analysis</li>
+                                        <li>Use of AI</li>
+                                        <li>Barcode and RFID Solutions</li>
+                                        <li>Wages and Payments</li>
+                                    </ul>
+                                    <div class="try_nowBtn text-center">
+                                        <a href="#" class="try_now">Try Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cont2 prod__res" data-aos="fade-left">
+                            <div class="cup_holder">
+                                <div class="inner_circle"></div>
+                                <div class="inner_text">
+                                    <h3 class="mb_20">Inventory</h3>
+                                    <ul class="inner_list prod_list">
+                                        <li>Networking of Storage Facilities</li>
+                                        <li>Smart Solutions for Inventory</li>
+                                        <li>Mobile App for scanning</li>
+                                    </ul>
+                                    <div class="try_nowBtn text-center">
+                                        <a href="#" class="try_now">Try Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="erp_content">
+                        <p>Welcome to Enterprise Resource Planning (ERP) Software Streamline Your Business Operations
+                            with Cutting-Edge ERP Solutions In today's rapidly evolving business landscape, staying
+                            ahead of the competition requires more than just innovative products or services—it demands
+                            efficient, integrated processes across all facets of your organization. That's where
+                            Enterprise Resource Planning (ERP) software steps in, empowering businesses to optimize
+                            their resources, enhance productivity, and drive sustainable growth. What is ERP Software?
+                            ERP software serves as the backbone of modern businesses, integrating core processes such as
+                            finance, human resources, supply chain management, manufacturing, and more into a unified
+                            system. By providing a centralized platform for data management and analysis, ERP solutions
+                            enable companies to make informed decisions, streamline operations, and adapt to dynamic
+                            market demands with agility. Key Features and Benefits Our ERP software offers a
+                            comprehensive suite of features designed to address the diverse needs of businesses across
+                            industries: Integrated Modules: Seamlessly manage various business functions, including
+                            accounting, inventory management, customer relationship management (CRM), and procurement,
+                            within a single, cohesive platform. Real-Time Insights: Gain actionable insights into your
+                            operations through advanced reporting and analytics capabilities, enabling you to make
+                            data-driven decisions and drive continuous improvement. Enhanced Efficiency: Automate
+                            repetitive tasks, eliminate manual errors, and optimize workflows to enhance operational
+                            efficiency and reduce overhead costs. Scalability: Our ERP solutions are scalable and
+                            adaptable, allowing your business to expand without the need for significant system
+                            overhauls. Improved Collaboration: Foster collaboration and communication across departments
+                            and locations, facilitating seamless coordination and alignment of organizational goals.
+                            Regulatory Compliance: Stay compliant with industry regulations and standards effortlessly,
+                            thanks to built-in compliance features and audit trails. Why Choose Our ERP Software? At
+                            [Your Company Name], we understand that every business is unique, which is why we offer
+                            customizable ERP solutions tailored to your specific requirements. Our team of experienced
+                            professionals works closely with you to understand your business processes, challenges, and
+                            objectives, ensuring that our ERP implementation aligns seamlessly with your strategic
+                            goals. With our user-friendly interface, robust features, and dedicated support, you can
+                            trust [Your Company Name] to be your trusted partner in driving digital transformation and
+                            unlocking the full potential of your organization. Experience the Power of ERP Today
+                            Transform your business operations, enhance efficiency, and accelerate growth with [Your
+                            Company Name]'s innovative ERP software solutions. Contact us today to schedule a demo or
+                            learn more about how we can help your business thrive in the digital age. [Contact
+                            Information] [Social Media Links]</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="common_space" id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="co -lg-12">
+                        <h2 class="text-center mb_40">Supply Chain Management</h2>
+                        <div class="supply_content" data-aos="flip-up">
+                            <p>Product Development Information gives you complete access to all the variables involved
+                                around sampling, and new developments. Style Library, Costing and Analysis with complete
+                                instruction manuals suppliment the procurement and production smoothly.</p>
+                            <p>
+                                All Material Management activities linked with Inventory and cost control modules are
+                                available for real time generation of purchase order followed up with concurring goods
+                                recieve notes.
+                            </p>
+                            <p>Manage your vendors and every information related to sourcing of products/orders in the
+                                system, share with relevant parties with control restricted and approved access to
+                                information.</p>
+                            <p>Excellant calander application integration in Time & Action Planning module lets you map
+                                your activities in real time, see the delays and act on time using the alarms and
+                                notification mechanism.</p>
+                            <p>Reduce the paper work upto 80%; the system is capable of digitally storing, producing,
+                                and archieving every bill of material for future use. The accounting module takes care
+                                of bill passing and bank account reconcillations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="common_space" id="aboutus">
+            <div class="container">
+                <div class="row">
+                    <div class="heading text-center mb_40" id="about_us">
+                        <h2 class="font-weight-bold mb_40">ABOUT US</h2>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="about_img" data-aos="fade-right">
+                            <img src="./img/about1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-md-7">
+                        <div class="about" data-aos="fade-left">
+                            <p class="mb_10">“We must meet the challenge rather than wish it were not before
+                                us.”—William J. Brennan,
+                                Jr., Former Associate Justice of the U.S. Supreme Court</p>
+                            <p class="mb_10">And One of the challanges is to always adept and keep adepting with the
+                                advancement in
+                                technology. This is what we do and help others in the process. We are software
+                                developers,with plenty of working experience in industry, with deep understanding of
+                                every role within an organization and hence claim to understand the business process
+                                thoroughly.</p>
+                            <p class="mb_10">From Product Development and sourcing of raw material, From indenting to
+                                procurment and
+                                consumption within the WIP processess, to Storing and Dispatch of final products, Our
+                                software and services can and generally help companies to record, update and remind of
+                                all the make through or break through parameters.
+                            </p>
+                            <p>
+                                Be it sales display and order booking in real time, our mobile app covers it with
+                                reserving the stock against sales order in real time.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt_50">
+                    <div class="col-md-7">
+                        <div class="about" data-aos="fade-left">
+                            <p class="mb_10">About Us Simran Websoft is a distinguished software development company led
+                                by a team of seasoned professionals. Established in 2014 by Mr. Ritesh Mangwani, we have
+                                been dedicated to providing exemplary services to a diverse clientele, primarily
+                                comprising export houses. Our commitment lies in optimizing their operations and
+                                facilitating seamless adaptation to the rapidly evolving technological landscape. Mr.
+                                Mangwani, a postgraduate from NIFT Mumbai, brings a wealth of experience in apparel
+                                exports and production. With a rich background in working closely with various domestic
+                                brands, he recognized the need to amalgamate his technological acumen and coding
+                                expertise. This realization led to the inception of our flagship product, ERP software,
+                                aimed at revolutionizing business operations. Today, our company boasts a cohesive team
+                                equipped with the necessary technical prowess to cater to the bespoke software
+                                requirements of any enterprise. We pride ourselves on our ability to deliver tailor-made
+                                solutions that align perfectly with our clients' unique needs and aspirations. At Simran
+                                Websoft, we are dedicated to empowering businesses through innovation and cutting-edge
+                                technology.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="about_img" data-aos="fade-right">
+                            <img src="./img/about1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+      
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4 col-xs-12">
+                            <div class="single_footer">
+                                <h4>Arya Information Management Software</h4>
+                                <div class="arya_content mb_40">
+                                    <p>You will be amazed..</p>
+                                    <p> How Technology can transform your operations..</p>
+                                </div>
+                                <h5 class="text-white"><a href="tel:+919820083733">Call us now...(+91) 98200 83733</a>
+                                </h5>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-lg-4 col-sm-12 col-xs-12">
+                            <div class="single_footer single_footer_address">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Products</a></li>
+                                    <li><a href="#">Services </a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div><!--- END COL -->
+                        <div class="col-lg-4 col-sm-12 col-xs-12">
+                            <div class="single_footer single_footer_address">
+                                <h4>Let's Connect</h4>
+                                <a href="mailto:arya@simranwebsoft.com" class="f_18">arya@simranwebsoft.com</a>
+                            </div>
+                            <div class="social_profile">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div><!--- END COL -->
+                    </div><!--- END ROW -->
+                    <!-- <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <p class="copyright">Copyright © 2019 <a href="#">Akdesign</a>.</p>
+                        </div>
+                        
+                    </div> -->
+                    <!--- END ROW -->
+                </div><!--- END CONTAINER -->
+            </div>
+        </footer>
+
+    </main>
+
+
+
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.js" ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200
+        });
+    </script>
+</body>
+
+</html>

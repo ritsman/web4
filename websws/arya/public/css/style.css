@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('./header.css');
+@import url('./banner.css');
+@import url('./inbuilt.css');
+/* About and supply chain  */
+@import url('./about.css');
+@import url('./footer.css');
+@import url('./product.css');
+
+
+
+
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body,html { margin: 0;}
+body {
+    background: #ffffff;
+    font-size: 14px;
+    color: #000000;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    transition: all 500ms ease;
+    /* font-size: 18px; */
+    /* color: grey; */
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+::selection{background:#124943; color: var(--white);}
+:root {
+    --gray:#E9E9E9;
+    --blue:#272361;
+    --yellow:#eab613;
+    --white: #ffffff;
+    --black:#000000;
+    --ligth-gray:#f3f3f3;
+    --green:#209339;
+}
+/* Global css  */
+a { outline: none !important;  color: #4f6f83;}
+.auth-item a, .mega-dropdown-list li a{transition: all 500ms ease;-moz-transition: all 500ms ease;-webkit-transition: all 500ms ease;-ms-transition: all 500ms ease;-o-transition: all 500ms ease;}  
+img { max-width: 100%;}
+a,a:hover {text-decoration: none;}
+button,select {outline: none !important;}
+ul,ol {padding: 0px;margin: 0px;list-style: none;}
+h1,h2,h3,h4,h5,h6 {  margin: 0px; line-height: 1.1; color: #000000;}
+.btn-check:focus+.btn, .btn:focus {outline: 0;box-shadow: none;}
+p{margin: 0;}
+/* Global css  */
+
+.common_space{
+  padding: 50px 0;
+
+}
+.mb_40{
+  margin-bottom: 40px;
+}
+.mb_20{
+  margin-bottom: 20px !important;
+}
+.mb_10{
+  margin-bottom: 10px;
+}
+.mt_50{
+  margin-top: 50px;
+}
+
+ 

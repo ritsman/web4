@@ -1,0 +1,158 @@
+/* .product_img img {
+    background-image: url('/img/bakc2.png');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40%;
+    border-radius: 70%;
+    transform-origin: bottom;
+    transform: translateY(-10%)translateX(-20%) scale(2.5);
+} */
+
+.product_img img {
+    height: 200px;
+    width: 100%;
+    object-fit: none;
+    border-radius: 10px 10px 10px 10px;
+}
+.prod_list li{
+    position: relative;
+    text-align: left;
+    padding: 0 30px 0 50px;
+    margin-bottom: 10px;
+}
+.prod_list li::before{
+    position: absolute;
+    content: '';
+    background: url(/img/checkmark.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 0;
+}
+.inbuilt_main {
+    background: #ebcd82;
+    border-radius: 10px;
+    max-width: calc(100% - 20px);
+    margin-bottom: 20px;
+}
+.prod_head{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0 30px 0;
+   
+}
+/* .prod_list{
+    padding: 0 5px;
+} */
+.product_content {
+    padding: 20px 0;
+}
+.try_now{
+    display: inline;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+
+}
+.try_nowBtn{
+    margin-top: 20px;
+}
+.try_now {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all ease .5s;
+}
+.try_now:hover{
+    background: transparent;
+    color: #000;
+    border:  1px solid #000;
+}
+
+
+/* ********** */
+
+@media screen and (max-width:836px){
+    div.cont2{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  div.cup_holder{
+    display:flex;
+    flex-direction: column;
+    /* flex-basis: 34%; */
+  }
+ }
+  div.cont2{
+    position: relative;
+      display: flex;
+      /* background-color:#ebcd82;
+      background-color: #856431; */
+      background-color: #FFF;
+      height: 500px;
+      justify-content: space-evenly;
+      align-items: center;
+      width: calc(100% - 20px);
+      transition: all ease .5s;
+      /* font-size: 0.8em; */
+  }
+  .div.cont2:hover{
+    margin-top: -10px;
+  }
+  div.cup_holder{
+      background-color: #856431;
+      background-color:#ebcd82;
+      /* position: relative; */
+      height: 85%;
+      max-width: 100%;
+      border-radius: 12px;
+      overflow: hidden;   
+      cursor: pointer;
+      transition: all ease .5s;
+  }
+  div.cup_holder:hover{
+    margin-top: -20px;
+    -webkit-box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
+box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
+  }
+  div.inner_circle{
+     
+     position:relative;
+  
+    background-image: url('../img/bakc2.png');
+    background-size: cover;
+    background-position:right center;
+  
+    background-attachment: fixed; 
+    /* background-repeat: no-repeat; */
+      width:100%;
+     height: 40%;
+     /* background: #008dff; */
+     border-radius: 70%;
+     transform-origin:bottom ;
+     transform:translateY(-10%)translateX(-20%) scale(2.5)
+ }
+ div.inner_text{    
+     position: relative;
+     width:100%;
+     height: 100%;
+      padding-right: 0.3em; 
+  }
+  .inner_text h3{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-family: 'Rubik','Poppins','helvetica',sans-serif;
+      text-decoration: underline;
+      color:#1b362c;
+  }

@@ -1,0 +1,24 @@
+.about p{
+    font-size: 18px;
+    color: grey;
+}
+.about_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.about_img img{
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid grey;
+}
+.supply_content{
+    box-shadow: 1px 5px 24px -4px rgba(0,0,0,0.75);
+    padding: 40px;
+    border-radius: 10px;
+}
+.supply_content p{
+    font-size: 18px;
+    color: grey;
+}
