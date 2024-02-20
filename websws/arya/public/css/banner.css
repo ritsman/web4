@@ -24,6 +24,7 @@
   
     max-width: 1500px;
     height: 300px;
+    height: auto;
     padding: 35px;
   
     border: 1px solid rgba(255, 255, 255, .25);
@@ -51,6 +52,7 @@
     background-color: #ffffffc4;
     max-width: 500px;
     width: 100%;
+    overflow-x: hidden;
 }
 .center_card p {
     font-size: 16px;
@@ -121,6 +123,7 @@
     padding: 200px 0 200px 0;
     position: relative;
     margin-top: 86px;
+    background-attachment: fixed !important;
 }
 /* .banner::after{
     position: absolute;
@@ -131,3 +134,17 @@
     top: 0;
     left: 0;
 } */
+
+
+@media screen and (max-width:768px){
+  .banner {
+    padding: 100px 0 100px 0;
+    margin-top: 75px;
+}
+.center_card h3{
+  font-size: 20px;
+}
+.center_card p {
+  font-size: 14px;
+}
+}

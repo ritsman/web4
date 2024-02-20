@@ -156,3 +156,6 @@ box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
       text-decoration: underline;
       color:#1b362c;
   }
+  .supply_content{
+    overflow-x: hidden;
+  }

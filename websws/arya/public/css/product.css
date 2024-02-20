@@ -1,4 +1,7 @@
 .erp_content p{
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
+}
+.prod__res{
+    overflow-x: hidden;
 }
