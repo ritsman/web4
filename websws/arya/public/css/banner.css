@@ -90,6 +90,8 @@
   }
   div.sld{
     /* background-color: blue; */
+    padding-top:4px;
+    padding-bottom: 5px;
     margin-bottom: 0.1rem;
     color:#a9434c;
     font-weight: 600;
@@ -101,19 +103,19 @@
   }
   @keyframes text-animation {
   0% {margin-top: 0;}
-  7% {margin-top: 0;}
-  14% {margin-top: -1.6rem;}
-  21% {margin-top: -1.6rem;}
-  28% {margin-top: -3.3rem;}
-  35% {margin-top: -3.3rem;}
-  42% {margin-top: -5rem;}
-  49% {margin-top: -5rem;}
-  56% {margin-top: -3.3rem;}
-  63% {margin-top: -3.3rem;}
-  70% {margin-top: -1.6rem;}
-  77% {margin-top: -1.6rem;}
-  84% {margin-top: 0;}
-  96% {margin-top: 0;}
+  5% {margin-top: 0;}
+  15% {margin-top: -2rem;}
+  20% {margin-top: -2rem;}
+  30% {margin-top: -4rem;}
+  40% {margin-top: -6rem;}
+  50% {margin-top: -8rem;}
+  50% {margin-top: -8rem;}
+  60% {margin-top: -6rem;}
+  70% {margin-top: -4rem;}
+  80% {margin-top: -2rem;}
+  85% {margin-top: -2rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
 }
 
   /* Banner section  */
