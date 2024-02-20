@@ -105,9 +105,7 @@
       transition: all ease .5s;
       /* font-size: 0.8em; */
   }
-  .div.cont2:hover{
-    margin-top: -10px;
-  }
+  
   div.cup_holder{
       background-color: #856431;
       background-color:#ebcd82;
@@ -121,9 +119,13 @@
   }
   div.cup_holder:hover{
     margin-top: -20px;
-    -webkit-box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
-box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75);
+    /* -webkit-box-shadow: 6px 9px 20px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 20px -5px rgba(0,0,0,0.75); */
+    /* box-shadow: 6px 9px 10px -10px rgba(0,0,0,0.75); */
+    box-sizing: border-box;
+    box-shadow:8px 9px 10px -5px #4a381c;
+    border-collapse: collapse;
+    
   }
   div.inner_circle{
      
