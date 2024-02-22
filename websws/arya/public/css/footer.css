@@ -141,8 +141,10 @@ padding: 0;
     border-radius: 30px;
     width: 50px;
     height: 50px;
-    line-height: 50px;
-    display: block;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
     border: 1px solid rgba(255,255,255,0.2);
     transition: all ease .5s;
 }
@@ -180,4 +182,41 @@ border:0px;
 }
 .single_footer a{
     color: #fff;
+}
+
+
+
+/* responsive  */
+
+@media screen and (max-width:768px){
+.footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.single_footer h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.arya_content {
+    font-size: 15px;
+}
+.single_footer a {
+    font-size: 14px;
+}
+.single_footer h4::after {
+    margin-top: 12px;
+}
+.single_footer ul li a {
+    line-height: 30px;
+    font-size: 15px;
+}
+.social_profile {
+    margin-top: 20px;
+}
+.social_profile ul li a {
+   
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
 }

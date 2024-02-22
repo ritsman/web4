@@ -111,7 +111,9 @@
       background-color:#ebcd82;
       /* position: relative; */
       height: 90%;
-      max-width: 100%;
+      /* max-width: 100%; */
+      max-width: 500px;
+      width: 100%;
       border-radius: 12px;
       overflow: hidden;   
       cursor: pointer;
@@ -165,4 +167,98 @@ box-shadow: 6px 9px 57px -5px rgba(0,0,0,0.75); */
 
   .erp_img img{
     border-radius: 10px;
+  }
+
+@media screen and (max-width:1400px){
+    .prod_list li {
+        padding: 0 20px 0 40px;
+        margin-bottom: 5px;
+    }
+    .prod_list li::before {
+        width: 18px;
+        height: 15px;
+        left: 12px;
+        top: 4px;
+    }
+    .inner_text h3 {
+        font-size: 20px;
+    }
+    div.inner_circle {
+        margin-top: -38%;
+    }
+
+}
+
+
+@media screen and (max-width:1200px){
+    div.inner_circle {
+        margin-top: -47%;
+    }
+    .prod_list li {
+        padding: 0 10px 0 30px;
+        margin-bottom: 5px;
+    }
+    .prod_list li::before {
+        left: 8px;
+    }
+    .prod_list li {
+        padding: 0 18px 0 34px;
+    }
+    .try_nowBtn {
+        margin-top: 10px;
+    }
+    .try_now {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .try_nowBtn {
+        margin-top: 10px;
+    }
+    .try_now {
+        font-size: 14px;
+    }
+    div.inner_circle {
+        margin-top: -50%;
+    }
+    .prod_list li {
+        padding: 0 12px 0 33px;
+    }
+  
+}
+
+@media screen and (max-width:1025px){
+    div.inner_circle {
+        margin-top: -47%;
+    }
+
+}
+@media screen and (max-width:992px){
+
+    div.inner_circle {
+        margin-top: -20%;
+    }
+    .prod_list li {
+        padding: 0 12px 0 40px;
+    }
+    .prod_list li::before {
+        left: 12px;
+    }
+    .try_nowBtn {
+        margin-top: 20px;
+    }
+}
+  @media screen and (max-width: 768px){
+    div.inner_circle {
+        margin-top: 0;
+    }
+    div.inner_text {
+        height: 75%;
+    }
+    div.cont2 {
+        width: 100%;
+    }
+    div.cup_holder {
+        height: 83%;
+        width: calc(100% - 40px);
+    }
   }

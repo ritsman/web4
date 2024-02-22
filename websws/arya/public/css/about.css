@@ -24,3 +24,21 @@
     font-size: 16px;
     color: grey;
 }
+
+@media screen and (max-width:768px){
+    .res_flow{
+        flex-direction: column-reverse;
+    }
+    .supply_content {
+        padding: 20px;
+    }
+    .supply_content p {
+        font-size: 14px;
+    }
+    .supply_content p {
+        font-size: 14px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+}

@@ -139,9 +139,13 @@
 
 
 @media screen and (max-width:768px){
-  .banner {
+  /* .banner {
     padding: 100px 0 100px 0;
     margin-top: 75px;
+} */
+.banner {
+  padding: 80px 0 90px 0;
+  margin-top: 75px;
 }
 .center_card h3{
   font-size: 20px;
